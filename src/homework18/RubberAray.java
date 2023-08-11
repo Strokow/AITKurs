@@ -16,7 +16,7 @@ public class RubberArray {
     }
     public void add(int value) {
         extractArray();
-        array[array.length -1] - value;
+        array[array.length -1] = value;
 
     }
     public void add(int...ints) {
